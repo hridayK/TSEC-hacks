@@ -1,5 +1,5 @@
 from django import views
-from flask import Blueprint
+from flask import Blueprint, render_template, flash
 
 
 views = Blueprint('views', __name__)
@@ -7,7 +7,7 @@ views = Blueprint('views', __name__)
 
 @views.route('/', methods=['GET', 'POST'])
 def index():
-    return "THIS is the default page"
+    return render_template("login2.html")
 
 
 @views.route('/home', methods=['GET', 'POST'])
