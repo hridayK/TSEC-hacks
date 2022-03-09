@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.material-icons {
+  padding: 10px;
+}
+.row-center p{
+  font-family:'Poppins',sans-serif ;
+  font-size: large;
+}
+.right p{
+  transform: translate(-45px);
+}
+.material-icons:hover {
+  /* translate: -5px; */
+  transform: translate(-5px);
+  cursor: pointer;
+}
+
+.material-icons:active {
+  background-color: #63a3c0;
+}
+
+.container {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#apple-logo{
+  position: relative;
+ transform: scale(0.55); 
+  padding:0px;
+}
+
+#android{
+  transform: scale(0.55);
+ position: relative;
+ top: 20px;
+}
+
+.row {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  /* border: 2px black solid; */
+  border-radius: 12px;
+  background: linear-gradient(135deg, #11e646, #48eaff);
+ 
+}
+.row-center p{
+  font-family:'Poppins',sans-serif ;
+  font-size: large;
+}
+.right p{
+  transform: translate(-45px);
+}
+.row-center {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+.row:hover {
+  /* scale: 1.05; */
+  transform: scale(1.05);
+}
+
+.row img {
+  width: 30vw;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  padding-bottom: 6vh;
+}
+
+.left {
+  width: 20vw;
+}
+.right {
+
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Poppins',sans-serif;
+  font-size:2em;;
+}
+
+.right-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
