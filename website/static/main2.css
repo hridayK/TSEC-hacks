@@ -31,20 +31,8 @@
   justify-content: space-evenly;
 }
 
-#apple-logo{
-  position: relative;
- transform: scale(0.55); 
-  padding:0px;
-}
-
-#android{
-  transform: scale(0.55);
- position: relative;
- top: 20px;
-}
-
 .row {
-  width: 40vw;
+  width: 30vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,15 +40,18 @@
   /* border: 2px black solid; */
   border-radius: 12px;
   background: linear-gradient(135deg, #11e646, #48eaff);
- 
+  padding-bottom: 4vh;
 }
+
 .row-center p{
   font-family:'Poppins',sans-serif ;
   font-size: large;
 }
+
 .right p{
   transform: translate(-45px);
 }
+
 .row-center {
   width: inherit;
   display: flex;

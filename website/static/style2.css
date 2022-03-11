@@ -7,6 +7,11 @@ body {
     color: #333333;
 }
 
+#desc{
+    font-size: 2em;
+    font-weight: 900;
+}
+
 .box-form {
     margin: 0 auto;
     width: 80%;
@@ -40,6 +45,7 @@ body {
     width: 60vw;
     background-image: url("https://imageio.forbes.com/blogs-images/forbestechcouncil/files/2019/01/canva-photo-editor-8-7.jpg?fit=bounds&format=jpg&width=960");
     /* background image */
+    background-color:  #330000;
     overflow: hidden;
 }
 
